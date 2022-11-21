@@ -1,0 +1,92 @@
+* {
+outline: solid 1px green;
+padding: 0;
+margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 5fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-column-gap: 1em;
+    grid-template-areas: 
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+}
+
+.background-image {
+        background-image: url("https:img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+
+/* COLORS */
+header, footer {
+    background-color: rgb(224, 224, 224);
+    width: 100vw;
+}
+main {
+    background-color: rgb(224, 224, 224);
+}
+
+aside {
+    background-color: lightgray;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1em;
+}
+.logo, .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+aside {
+    grid-area: sidebar; 
+}
+
+aside h3, aside p {
+    margin-top: 0;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+main {
+    grid-area: main;
+}
+.section-items {
+display: flex;
+
+flex: 1;
+}
+
+section p, img {
+    padding: 1em;
+}
+
+section img {
+    height: 20vw;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+
+}
