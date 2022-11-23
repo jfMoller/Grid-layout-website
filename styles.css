@@ -65,7 +65,7 @@ header {
 .logo h2 {
   width: 5rem;
   padding: 0.5rem;
-  border: 10px ridge  rgba(255, 255, 255);;
+  border: 10px ridge rgba(255, 255, 255);
   border-radius: 50%;
   width: 5px;
   height: 5px;
@@ -102,8 +102,7 @@ aside p {
   height: 1fr;
   line-height: 1.2;
   padding: 0.5em;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
 }
 
 .sidebar-items {
@@ -111,8 +110,7 @@ aside p {
   flex-direction: column;
   padding: 0.5em;
   padding-top: 1.2em;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
 }
 #sidebar-item1,
 #sidebar-item2,
@@ -125,9 +123,11 @@ main {
   grid-area: main;
   overflow-y: scroll;
   padding: 0.5em;
+  padding-bottom: 0;
 }
 
 .section-items {
+  margin-bottom: 0.5em;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -198,7 +198,7 @@ footer {
     box-shadow: none;
   }
 
-  .logo{
+  .logo {
     padding-bottom: 0.6rem;
   }
 
