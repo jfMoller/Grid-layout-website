@@ -26,8 +26,7 @@ aside,
 main,
 aside,
 footer {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
 }
 
 header,
@@ -58,8 +57,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255);
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
 }
 
 .logo h2 {
@@ -100,23 +98,13 @@ aside h3 {
 
 aside p {
   height: 1fr;
-  line-height: 1.2;
-  padding: 0.5em;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
 }
 
 .sidebar-items {
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
-  padding-top: 1.2em;
+  margin: 0.5em;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
-}
-#sidebar-item1,
-#sidebar-item2,
-#sidebar-item3,
-#sidebar-item4 {
-  padding: 0.5em;
 }
 
 main {
